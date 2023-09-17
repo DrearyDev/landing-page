@@ -196,3 +196,14 @@ button:hover {
 .text p {
     color: #f9faf8;
 }
+
+/* FOOTER */
+
+.footer {
+    color: #f9faf8;
+    background-color: #1f2937;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
