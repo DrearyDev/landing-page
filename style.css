@@ -74,16 +74,14 @@ ul a:hover {
     font-size: 18px;
 }
 
-.content button {
-    color: white;
-    background-color: #3882f6;
-}
 button {
     width: 100px;
     font-weight: bold;
     border: none;
     border-radius: 8px;
     padding: 7px 25px;
+    background-color: #3882f6;
+    color: white;
 }
 button:hover {
     cursor: pointer;
@@ -146,9 +144,19 @@ button:hover {
 .section-three {
     padding: 50px;
     background-color: #e5e7eb;
+
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    width: 900px;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote {
+    width: 860px;
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
@@ -157,4 +165,34 @@ button:hover {
 .section-three h1 {
     font-size: 24px;
     text-align: right;
+}
+
+/* SECTION FOUR */
+
+.section-four {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    padding: 50px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.call-to-action button {
+    border: 2px solid white;
+    margin-left: 250px;
+    white-space: nowrap;
+}
+
+.text h1 {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.text p {
+    color: #f9faf8;
 }
