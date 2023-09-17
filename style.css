@@ -24,8 +24,6 @@
     justify-content: space-around;
 }
 
-.logo {
-}
 .logo a {
     font-size: 24px;
     color: #f9faf8;
@@ -141,4 +139,22 @@ button:hover {
 
 .card > p {
     color: #4a4e53;
+}
+
+/* SECTION THREE */
+
+.section-three {
+    padding: 50px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.section-three h1 {
+    font-size: 24px;
+    text-align: right;
 }
